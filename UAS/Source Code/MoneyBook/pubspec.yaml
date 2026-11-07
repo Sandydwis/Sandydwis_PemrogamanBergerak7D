@@ -1,0 +1,31 @@
+name: moneybook_personal
+description: "MoneyBook Personal - pemasukan, pengeluaran, rekap dan pemindaian nota."
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.20.3
+  sqflite: ^2.4.5
+  crypto: ^3.0.7
+  uuid: ^4.5.1
+  image_picker: ^1.2.4
+  google_mlkit_text_recognition: ^0.17.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  sqflite_common_ffi: 2.3.6
+  sqlite3: ">=2.7.0 <3.0.0"
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: MoneySans
+      fonts:
+        - asset: assets/fonts/DejaVuSans.ttf
